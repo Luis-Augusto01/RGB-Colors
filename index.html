@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Cores</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="selectCor">
+        <label class="indicador">( R ) Vermelho: </label>
+        <input type="range" id="rangeColor1" class="rangeColor" min="0" max="255" step="1" value="0">
+        <input type="text" value="0" id="textColor1" class="textColor" readonly disabled><br>
+        <div id="divCor1"></div>
+
+        <label class="indicador">( G ) Verde: </label>    
+        <input type="range" id="rangeColor2" class="rangeColor" min="0" max="255" step="1" value="0">
+        <input type="text" value="0" id="textColor2" class="textColor" readonly disabled><br>
+        <div id="divCor2"></div>
+
+        <label class="indicador">( B ) Azul: </label>
+        <input type="range" id="rangeColor3" class="rangeColor" min="0" max="255" step="1" value="0">
+        <input type="text" value="0" id="textColor3" class="textColor" readonly disabled>
+        <div id="divCor3"></div>
+    <div id="divRGB"> 
+    </div>
+    </div>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>

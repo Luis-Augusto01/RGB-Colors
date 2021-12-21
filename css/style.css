@@ -1,0 +1,91 @@
+body{
+    width: 80%;
+    text-align: justify;
+}
+
+label{
+    margin: 10px 0 0 40px;
+    padding: 0 0 0 0;
+}
+
+.textColor{
+    width: 22px;
+}
+.rangeColor{
+    width: 300px;
+    height: 2px;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background: #6C7A89;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.selectCor{
+    background-color: #fff;
+    width: 600px;
+    height: 300px;
+    border-radius: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#divRGB{    
+    align-items: center;
+    width: 200px;
+    height: 150px;
+    background-color: rgb(0,0,0);
+    margin: 20px 200px;
+}
+
+#rangeColor2{
+    margin: 0 26px 0 26px;
+}
+
+#rangeColor3{
+    margin: 0 33px;
+}
+
+#textColor1{
+    margin: 0 10px;
+}
+
+#textColor2{
+    margin: 0 -14px;
+}
+
+#textColor3{
+    margin: 0 -20.2px;
+}
+
+#divCor1{
+    width: 40px;
+    height: 21px;
+    background-color: rgb(0,0,0);
+    position: relative;
+    top: -21px;
+    left: 520px;
+}
+
+#divCor2{
+    width: 40px;
+    height: 21px;
+    background-color: rgb(0,0,0);
+    position: relative;
+    top: -21px;
+    left: 520px;
+}
+
+#divCor3{
+    width: 40px;
+    height: 21px;
+    background-color: rgb(0,0,0);
+    position: relative;
+    top: -21px;
+    left: 520px;
+}
